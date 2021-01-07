@@ -124,6 +124,8 @@ class App extends Component {
               captureFile={this.captureFile}
               uploadVideo={this.uploadVideo}
               changeVideo={this.changeVideo}
+              currentHash={this.state.currentHash}
+              currentTitle={this.state.currentTitle}
             />
         }
       </div>
